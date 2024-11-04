@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Product Proposal - SyncPlay RPS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>SyncPlay RPS</h1>
+    </header>
+
+    <!-- Team Members Section -->
+    <section id="team-members">
+        <h2>Team Members</h2>
+        <ul>
+            <li>Julian Pala</li>
+        </ul>
+    </section>
+
+    <!-- Application Overview Section -->
+    <section id="application-overview">
+        <h2>Application Overview</h2>
+        <p>SyncPlay RPS is a cooperative, team-based twist on the classic game Rock-Paper-Scissors. Players join a team and face off against other teams in real-time rounds where they work together to make strategic choices. As they win rounds, they contribute to the team’s score and build a winning streak. The game provides a fun, interactive experience that blends real-time collaboration with competitive gameplay.</p>
+    </section>
+
+    <!-- Technology Overview Section -->
+    <section id="technology-overview">
+        <h2>Technology Overview</h2>
+        <ul>
+            <li>Languages: Go, JavaScript</li>
+            <li>Libraries: React for the frontend, Gorilla WebSocket for real-time updates, Apollo Client for GraphQL</li>
+            <li>Platforms: Azure Web Apps for hosting, Docker for containerization</li>
+        </ul>
+    </section>
+
+    <!-- Proposal Last Updated Section -->
+    <section id="last-updated">
+        <h2>Proposal Last Updated</h2>
+        <p><span id="last-updated-date"></span></p>
+    </section>
+
+    <!-- Feature List Section -->
+    <section id="feature-list">
+        <h2>Feature List</h2>
+        <ul>
+            <li>Real-time gameplay with WebSocket support</li>
+            <li>Team-based rounds with collaborative gameplay</li>
+            <li>Dynamic scoring system with streak-based rewards</li>
+            <li>Responsive UI for smooth mobile and desktop experiences</li>
+        </ul>
+    </section>
+
+    <!-- Future Feature List Section -->
+    <section id="future-feature-list">
+        <h2>Future Feature List</h2>
+        <ul>
+            <li>AI-powered opponent for single-player mode</li>
+            <li>Advanced player statistics and team ranking</li>
+            <li>Customizable avatars and user profiles</li>
+            <li>Additional game modes, such as timed rounds or extended play options</li>
+        </ul>
+    </section>
+
+    <!-- Basic Technical Features Section -->
+    <section id="basic-technical-features">
+        <h2>Basic Technical Features</h2>
+        <ul>
+            <li>RESTful API for managing sessions and player data</li>
+            <li>WebSocket server for real-time game state updates</li>
+            <li>Responsive design for a seamless user experience across devices</li>
+            <li>Secure deployment on Azure with HTTPS support</li>
+        </ul>
+    </section>
+
+    <!-- Advanced Technical Features Section -->
+    <section id="advanced-technical-features">
+        <h2>Advanced Technical Features</h2>
+        <ul>
+            <li>GraphQL API for retrieving detailed session and player stats</li>
+            <li>AI-based difficulty adjustment for solo or team-based play</li>
+            <li>Real-time scaling on Azure with Docker container orchestration</li>
+            <li>Continuous integration and deployment pipeline with GitHub and Azure DevOps</li>
+        </ul>
+    </section>
+
+    <script>
+        // Automatically updates the proposal last updated date
+        document.getElementById("last-updated-date").innerText = new Date().toLocaleDateString();
+    </script>
+</body>
+</html>
